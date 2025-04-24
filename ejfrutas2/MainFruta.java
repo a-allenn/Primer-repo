@@ -1,5 +1,5 @@
 package ejfrutas2;
-
+//añado comentarios
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejemplo Menú 2</title>
+<meta charset="UTF-8">
+<style>
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma;
+    font-size:20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f7f8e8;
+    border-bottom: 1px solid #eeeeee;
+}
+li a {
+    display: block;
+    color: #336699;   
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/*Clase activo para señalar un vínculo*/
+li a.activo {
+    background-color:skyblue;
+    color: white;
+}
+li a:hover {
+    background-color: #336699;
+    color: #f7f8e8;
+}
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="http://www.google.com" target="_blank">Google</a></li>
+        <li><a href="http://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="http://www.office.com" target="_blank">Office</a></li>
+    </ul>
+</body>
+</html>
