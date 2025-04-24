@@ -6,7 +6,7 @@ public class fiche {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Leer los nombres de las dos carpetas
+        // Leer los nombres de las dos carpetas.
         System.out.println("Introduce la ruta de la primera carpeta:");
         String rutaCarpeta1 = sc.nextLine();
 
