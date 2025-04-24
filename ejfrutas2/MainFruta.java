@@ -9,6 +9,7 @@ public class MainFruta {
 
 	public static void main(String[] args) {
 		final int ncarg = 10;
+		//añadir comentario
 		ArrayList<Integer> cargamentos = new ArrayList<Integer>();
 		// TODO Auto-generated method stub
 		fruta cargamento[] = new fruta[ncarg];
